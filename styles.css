@@ -1,0 +1,113 @@
+
+body{
+    background-color: #4fe0b0;
+    margin: 0px;
+}
+header{
+    height: 300px;
+    background-color: #2d5dcc;
+    display:flex;
+    align-items:center;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #4fe0b0;
+    margin-left: 15px;
+}
+h1{
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    color: whitesmoke;
+}
+h2{
+    font-family:'Work Sans', sans-serif;
+    font-weight: 500px;
+    font-size: 25px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.containers{
+    background-color: white;
+    border: 1px solid black;   
+    margin: 40px 100px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.colorpart{
+    display: inline-block;
+    color: #fff;
+}
+.color1{
+    background-color: #9a3207;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;     
+}
+.label{
+    color: black;
+}
+.color2{
+    background-color: #e8c786;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;  
+}
+.color3{
+    background-color: #184f83;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+}
+.color4{
+    background-color: #fffbe4;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+}
+
+.fontstext{
+    display: inline-block;
+    justify-content: left;
+    padding: 10px 20px;
+}
+.one{
+    font-family: 'Open Sans', sans-serif;
+}
+.two{
+    font-family: 'Work Sans', sans-serif;
+}
+.three{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.bold {
+    font-weight: bold;
+  }
+.italic{
+    font-style: italic;
+}
+.underlined{
+    text-decoration: underline;
+}
+#h1text{
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+}
+.textstyle{
+    align-items:center;
+}
+footer{
+    padding: 15px auto;
+    opacity: 0.9;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
