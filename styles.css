@@ -1,113 +1,176 @@
-
-body{
+body {
     background-color: #4fe0b0;
-    margin: 0px;
+    margin: 0;
 }
-header{
-    height: 300px;
+
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
     background-color: #2d5dcc;
-    display:flex;
-    align-items:center;
+    top: 0;
+    z-index: 1;
+    padding: 15px;
 }
-#logo{
+  
+nav li {
+    width: 100px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #4fe0b0;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid #4fe0b0;
+}
+
+.banner {
+    text-align: center;
+    display: inline-block;
+    height: 230px;
+    width: 100%;
+    background-color: #4fe0b0;
+    top: 100px;
+    padding: 50px auto;
+    position: relative;
+}
+
+main {
+    margin: 150px auto;
+}
+
+.picture {
+    margin-left: 15px;
+    margin-top: 10px;
     width: 90px;
     height: 90px;
     border-radius: 100%;
-    background-color: #4fe0b0;
-    margin-left: 15px;
+    float:inline-end;
 }
-h1{
+
+h1 {
     font-weight: 700px;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
+    color: rgb(255, 255, 255);
     margin-left: 15px;
-    color: whitesmoke;
+    text-align: center;
 }
-h2{
-    font-family:'Work Sans', sans-serif;
+
+h2 {
+    font-family:'Nunito Sans', sans-serif;
     font-weight: 500px;
     font-size: 25px;
+    text-align: center;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+p {
+    font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400px;
 }
 
-.containers{
+.containers {
     background-color: white;
-    border: 1px solid black;   
-    margin: 40px 100px;
+    border: 1px solid #000000;   
+    margin: 30px 100px;
+    padding: 50px 0px;
     text-align: center;
-    padding: 15px 0px;
+    overflow: scroll;
 }
 
-.colorpart{
+.colorpart {
     display: inline-block;
     color: #fff;
-}
-.color1{
-    background-color: #9a3207;
-    height: 150px;
-    width: 250px;
-    margin: 15px 10px;     
-}
-.label{
-    color: black;
-}
-.color2{
-    background-color: #e8c786;
-    height: 150px;
-    width: 250px;
-    margin: 15px 10px;  
-}
-.color3{
-    background-color: #184f83;
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 300px;
     margin: 15px 10px;
 }
-.color4{
-    background-color: #fffbe4;
-    height: 150px;
-    width: 250px;
-    margin: 15px 10px;
+.color1 {
+    background-color: #2d5dcc;
 }
 
-.fontstext{
+.color2 {
+    background-color: #eb2d85;
+}
+
+.color3 {
+    background-color: #4fe0b0;
+}
+
+.color4 {
+    background-color: #ff0000;
+}
+
+.fontstext {
     display: inline-block;
-    justify-content: left;
     padding: 10px 20px;
+    text-align: center;
 }
-.one{
-    font-family: 'Open Sans', sans-serif;
+.one {
+    font-family: 'Source Code Pro', sans-serif;
 }
-.two{
-    font-family: 'Work Sans', sans-serif;
+.two {
+    font-family: 'Nunito Sans', sans-serif;
 }
-.three{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+.three {
+    font-family: Poppins, sans-serif;   
 }
 .bold {
     font-weight: bold;
   }
-.italic{
+.italic {
     font-style: italic;
 }
-.underlined{
+.underlined {
     text-decoration: underline;
 }
-#h1text{
+
+.containers .textstyle {
+    display: inline-block;
+    height: 180px;
+    width: 400px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+#h1text {
     color:black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
+    margin-left: 0;
 }
-.textstyle{
-    align-items:center;
+
+#h2text {
+    margin-left: 0;
+    text-align: left;
 }
-footer{
+
+ul {
+    font-family: Poppins, sans-serif;
+    text-align: left;
+
+}
+
+footer {
     padding: 15px auto;
-    opacity: 0.9;
-    color: white;
-    font-size: 12px;
+    background-color: #2d5dcc;
+    color: #fff;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
     text-align: center;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
 }
